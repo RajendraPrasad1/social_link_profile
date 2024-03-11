@@ -18,5 +18,67 @@ p {
   font-size: 14px;
 }
 
+.container_body{
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.container_family {
+  border: 1px solid black;
+  padding: 5px;
+  height: 900px;
+  width: 375px;
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  padding-top: 100px;
+  
+
+}
 
 
+.container {
+  border: 1px groove;
+  padding: 5px;
+  height: fit-content;
+  border-radius: 3%;
+  width: fit-content;
+  display: block;
+  background-color: var( --dark-grey);
+  margin-left: auto;  
+  margin-right: auto;
+  padding-top: 30px;
+  
+}
+
+.container img {
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;
+  border-radius: 100%;
+  
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+h6 {
+  text-align: center;
+  color: rgb(219, 229, 25);
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.button_group button{
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display:inline-block;
+}

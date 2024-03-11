@@ -1,8 +1,13 @@
+import React from 'react'
+import Header from './components/Header';
 
 
-function App() {
+const App = () => {
   return (
-    <div>SocialProfilePage</div>
+    <>
+        <Header />
+    
+    </>
   );
 }
 
