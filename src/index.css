@@ -25,26 +25,26 @@ p {
 }
 .container_family {
   border: 1px solid black;
-  padding: 5px;
+  padding: 10px;
   height: 900px;
   width: 375px;
   display: block;
   margin-left: auto;  
   margin-right: auto;
   padding-top: 100px;
-  
+  background-color: var(--off-black);
 
 }
 
 
 .container {
-  border: 1px groove;
-  padding: 5px;
+  border: 1px hidden;
+  padding: 30px;
   height: fit-content;
-  border-radius: 3%;
+  border-radius: 10px;
   width: fit-content;
   display: block;
-  background-color: var( --dark-grey);
+  background-color: var(--dark-grey);
   margin-left: auto;  
   margin-right: auto;
   padding-top: 30px;
@@ -55,7 +55,7 @@ p {
   display: block;  
   margin-left: auto;  
   margin-right: auto;
-  border-radius: 100%;
+  border-radius: 100px;
   
 }
 
@@ -74,11 +74,21 @@ p {
   color: white;
 }
 
-.button_group button{
+
+.btn {
+  background-color: var(--grey);
+  border: hidden;
   padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  padding-left: 50px;
-  padding-right: 50px;
-  display:inline-block;
+  
 }
+
+.btn:hover {
+  background-color: var(--grey);
+}
+
+.btn span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+

@@ -12,16 +12,12 @@ const Header = () => {
             <h6>London, United Kingdom</h6>
             <hr />
             <p>"Front-end developer and avid reader"</p>
-            <div className='button_group'>
-              <button name="button" type="button">GitHub</button>
-              <hr />
-              <button name="button" type="button">Frontend Mentor</button>
-              <hr />
-              <button name="button" type="button">LinkedIn</button>
-              <hr />
-              <button name="button" type="button">Twitter</button>
-              <hr />
-              <button name="button" type="button">Instagram</button>
+            <div class="d-grid gap-3">
+              <button class="btn btn-primary" type="button"><span>GitHub</span></button>
+              <button class="btn btn-primary" type="button"><span>Frontend Mentor</span></button>
+              <button class="btn btn-primary" type="button"><span>LinkedIn</span></button>
+              <button class="btn btn-primary" type="button"><span>Twitter</span></button>
+              <button class="btn btn-primary" type="button"><span>Instagram</span></button>
             </div>
             
           </div>
